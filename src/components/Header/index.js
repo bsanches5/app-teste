@@ -17,15 +17,17 @@ const Header = () => {
             <div id="logo3">o</div>
           </div>
           <div id="subtitle">da empresa</div>
-        <div id="menu-title"> Lista de usuários</div>
-      </div>
+          <div id="menu-title"> Lista de usuários</div>
+        </div>
         <div className="navbar">
-          <button onClick={() => clickMe()}>Home</button>
-          <button onClick={() => clickMe()}>Usuários</button>
-          <button onClick={() => clickMe()}>Produtos</button>
-          <button>
-            <BiSearch />
-          </button>
+          <div className="menu">
+            <button onClick={() => clickMe()}>Home</button>
+            <button onClick={() => clickMe()}>Usuários</button>
+            <button onClick={() => clickMe()}>Produtos</button>
+            <button onClick={() => clickMe()}>
+              <BiSearch />
+            </button>
+          </div>
         </div>
       </header>
     </>

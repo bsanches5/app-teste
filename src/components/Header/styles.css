@@ -24,7 +24,7 @@ header {
   font-size: 60px;
   color: white;
   font-weight: bold;
- }
+}
 
 .title-box {
   display: flex;
@@ -43,6 +43,11 @@ header {
 }
 
 .navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
@@ -66,4 +71,16 @@ button:hover {
   font-size: 20px;
   font-style: italic;
   margin-top: 50px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  width: 85%;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
 }

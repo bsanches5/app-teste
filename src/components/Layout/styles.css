@@ -11,7 +11,7 @@
   border-width: 2px;
   border-color: #e9e9e9;
   border-style: solid;
-  width: 25%;
+  width: 23%;
   margin: 10px 20px;
   border-radius: 7px;
 }
@@ -49,4 +49,29 @@ a {
   text-decoration: none;
   color: #00275b;
   font-weight: bold;
+}
+
+@media (max-width: 768px){
+  .nome-completo {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 768px){
+  .user-infos {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 768px){
+  a {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 768px){
+  .box {
+    width: 50%;
+  }
 }
